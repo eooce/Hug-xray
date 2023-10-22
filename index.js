@@ -6,19 +6,18 @@ const port= process.env.PORT||7860;
 const shellFilePath = './start.sh';
 const childProcess = spawn('sh', [shellFilePath]);
 
-// 监听子进程的stdout和stderr输出
+// 监听子进程输出
 childProcess.stdout.on('data', (data) => {
   console.log(`stdout: ${data}`);
 });
-
 childProcess.stderr.on('data', (data) => {
   console.error(`stderr: ${data}`);
 });
-
 childProcess.on('close', (code) => {
   console.log(`Child process exit, exit code：${code}`);
 });
-// http
+
+// http服务
 app.get("/", function(req, res) {
   res.send("hello world");
 });
