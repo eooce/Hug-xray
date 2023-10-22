@@ -4,6 +4,5 @@
 * 默认uuid:de04add9-5c68-8bab-870c-08cd5320df07
 * 默认vless，vmess，trojan，shadowsocks路径为/vless  /vmess  /trojan  /shadowsocks
 * 节点配置如下图
-![Uploading image.png…]()
-
+![image](https://github.com/eoovve/Hug-xray/assets/142894633/d0a164f8-366f-4dea-8398-f020efbe9dce)
 
