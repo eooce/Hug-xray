@@ -4,5 +4,6 @@
 * 默认uuid:de04add9-5c68-8bab-870c-08cd5320df07
 * 默认vless，vmess，trojan，shadowsocks路径为/vless  /vmess  /trojan  /shadowsocks
 * 节点配置如下图
-* ![Uploading image.png…]()
+![Uploading image.png…]()
+
 
